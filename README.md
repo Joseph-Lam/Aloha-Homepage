@@ -14,3 +14,6 @@ Met requirements for this Project:
 -smooth scrolling, flickity, and alert added using JS 
 
 -validated markup online
+
+
+-test test test 
