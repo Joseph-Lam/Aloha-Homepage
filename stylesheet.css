@@ -303,6 +303,13 @@ a {
 	text-shadow: 1.5px 1.5px grey;
 }
 
+
+.about-container {
+	margin: auto;
+	padding: 20px;
+	max-width: 600px;
+	text-align: center;
+}
 /**********New Images section**********/
 
 .category-container {
@@ -473,7 +480,6 @@ background:
 .div-container {
 	margin: auto;
 	padding: 20px;
-	max-width: 600px;
 	text-align: center;
 }
 
@@ -481,6 +487,9 @@ background:
 	line-height: 2;
 }
 
+.div-container h1 {
+	margin-bottom: 30px;
+}
 
 .last-word-bold {
 	font-weight: bold;
@@ -489,7 +498,10 @@ background:
 
 .carousel-cell {
 	width: 100%;
+}
 
+.item {
+	width: 250px;
 }
 
 
@@ -506,7 +518,6 @@ background:
 .subscribe-font {
 	color: white;
 	padding-top: 50px;
-
 }
 
 .email-flex {
