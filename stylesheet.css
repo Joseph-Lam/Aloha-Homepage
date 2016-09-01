@@ -119,13 +119,9 @@ html {
 	color: #2d2d2d
 }
 
-body {
-
-}
-
 h1 {
 	font-family: "playfair display", sans-serif;
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-style: italic;
 	font-weight: normal;
 	color: #2d2d2d;
@@ -135,7 +131,7 @@ h1 {
 
 h2 {
 	font-family: "playfair display", sans-serif;
-	font-size: 3rem;
+	font-size: 4rem;
 	color: white;
 	text-align: center;
 	padding: 20px;
@@ -220,7 +216,7 @@ a {
 }
 
 .aloha-img {
-	max-width: 100%;
+	width: 140px;
 	padding-top: 5px;
 	margin-left: 10px;
 }
@@ -236,8 +232,7 @@ a {
 }
 
 .cart-img {
-	max-width: 100%;
-	padding: 0%;
+	height: 59px;
 }
 
 .cart-btn {
@@ -248,8 +243,6 @@ a {
 	    flex-wrap: wrap;
 	-ms-flex-item-align: end;
 	    align-self: flex-end;
-	width: 45px;
-	height: 40px;
 	padding: 10px;
 }
 
@@ -287,6 +280,10 @@ a {
 	margin: 10px;
 }
 
+.nav-font:hover {
+	color: #b64036;
+}
+
 
 /**********floral background**********/
 .banner {
@@ -294,15 +291,15 @@ a {
 	-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
 	url(./assets/images/banner-girl.png) no-repeat center 40px,
 	url(./assets/images/flower-bkgd.jpg) center repeat-x;
-	background-size: cover, auto 400px, auto 450px;
+	background-size: cover, auto 570px, auto 480px;
 	position: relative;
-	height: 350px;
+	height: 450px;
 }
 
 .new-collection {
 	color: white;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 160px;
 	text-shadow: 1.5px 1.5px grey;
 }
 
@@ -343,6 +340,10 @@ a {
 
 .link-font {
 	text-decoration: none;
+}
+
+.link-font:hover {
+	color: #f5ebc6;
 }
 
 .mens-box {
@@ -472,10 +473,13 @@ background:
 .div-container {
 	margin: auto;
 	padding: 20px;
-	position: center;
+	max-width: 600px;
 	text-align: center;
 }
 
+.div-container p {
+	line-height: 2;
+}
 
 
 .last-word-bold {
@@ -634,10 +638,6 @@ html {
 	        order: 1;
 }
 
-.aloha-img {
-	width: 100px;
-}
-
 .nav-container {
 	-webkit-box-ordinal-group: 3;
 	    -ms-flex-order: 2;
@@ -751,6 +751,12 @@ html {
 
 }
 @media only screen and (min-width: 1240px) {
+
+.header-container {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
 
 .carousel-cell {
 	width: 25vw;
