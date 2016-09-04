@@ -141,9 +141,9 @@ h2 {
 
 h3 {
 	font-family: "playfair display", sans-serif;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: #e2574c;
-	padding: 20px;
+	padding: 10px;
 }
 
 h4 {
@@ -504,6 +504,12 @@ background:
 	width: 250px;
 }
 
+.add-cart-button {
+	margin-top: 5px;
+	font-family: 'railway medium', sans-serif;
+}
+
+
 
 /**********Subscribe section**********/
 
@@ -658,10 +664,23 @@ html {
 	max-width: 100px;
 }
 
-.cart-btn {
+.cart-button {
 	-webkit-box-ordinal-group: 4;
 	    -ms-flex-order: 3;
 	        order: 3;
+	position: relative;
+}
+
+.counter {
+	position: absolute;
+	top: 5px;
+    left: 41px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    display: none;
 }
 
 /*****New Images Section*****/

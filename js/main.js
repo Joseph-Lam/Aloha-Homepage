@@ -44,4 +44,21 @@ $('#subscribe').submit(function(event){
    }
  });
 
+var counter = 0;
+
+   $('.add-cart-button').click(function() {
+   counter++;
+
+   $('#counter').text(counter);
+   $('#counter').show();
+
+
+
+
+   });
+
+
+
+
 });
+
