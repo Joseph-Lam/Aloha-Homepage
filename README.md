@@ -3,14 +3,15 @@
 ##Tools and Methods used:
 ###-HTML
 ###-CSS
-###-Javascript
+###-Javascript/jQuery
 
 ##General Overview:
 ####-First Project working with HTML and CSS.
 ####-Learned to utilize flexbox for styling
-####-Include a list-based navigation bar with smooth scrolling
-####-Used JS for:
-  -incorporating a image slider for the product area
+####-Used JS/jQuery for:
+  -incorporating a image slider for the product area (flickity)
+  
+  -include a list-based navigation bar with smooth scrolling
   
   -display an alert box after submitting an email for subscription  
   
